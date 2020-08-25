@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-group = 'com.github.karar'
+group = 'com.github.karar-rifat'
 archivesBaseName = "communicationLibrary"
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
@@ -44,7 +44,6 @@ artifacts {
 	archives javadocJar, sourcesJar
 }
 
-// Build, sign, and upload
 uploadArchives {
 	repositories {
 		mavenDeployer {
@@ -93,3 +92,4 @@ uploadArchives {
 		}
 	}
 }
+

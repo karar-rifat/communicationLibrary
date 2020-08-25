@@ -1,4 +1,4 @@
-package com.github.karar.communicationLibrary;
+package com.github.kararrifat.communicationLibrary;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
